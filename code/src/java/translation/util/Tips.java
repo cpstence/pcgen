@@ -16,6 +16,10 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
  */
 package translation.util;
+import pcgen.util.Logging;
+import pcgen.util.Logging;
+import pcgen.util.Logging;
+import pcgen.util.Logging;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -34,8 +38,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-import pcgen.util.Logging;
 
 /**
  * This class allows the generation of a PO Template file from the tips.txt files,
@@ -422,33 +424,31 @@ public final class Tips
 	/* Logging methods. */
 
 	/**
-	 * Log an informational message.
+	 * Log a message to the standard output
 	 * @param string message pattern
 	 * @param o arguments
 	 * @see MessageFormat#format(String, Object...)
 	 */
+	@SuppressWarnings("UseOfSystemOutOrSystemErr")
 	private static void log(String string, Object... o)
 	{
-		Logging.log(Logging.INFO, MessageFormat.format(string, o));
+		pcgen.util.Logging.log(java.util.logging.Level.INFO, MessageFormat.format(string, o));
 	}
 
 	/**
-	 * Log an error message, including the stack trace when a cause is supplied.
+	 * Log a message to the error output
 	 * @param string message pattern
-	 * @param e the cause, may be {@code null}
 	 * @param o arguments
 	 * @see MessageFormat#format(String, Object...)
 	 */
+	@SuppressWarnings({"PMD.AvoidPrintStackTrace", "UseOfSystemOutOrSystemErr"})
 	private static void logError(String string, Throwable e, Object... o)
 	{
-		String message = MessageFormat.format(string, o);
-		if (e == null)
+		pcgen.util.Logging.errorPrint(MessageFormat.format(string, o));
+		if (e != null)
 		{
-			Logging.errorPrint(message);
-		}
-		else
-		{
-			Logging.errorPrint(message, e);
+			// Logging.error("Error occurred", e);
+e.printStackTrace();
 		}
 	}
 }
