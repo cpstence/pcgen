@@ -41,11 +41,9 @@
        fx:controller="pcgen.gui3.dialog.OptionsPathDialogController"
        fx:id="optionsPathDialogScene">
     <AnchorPane>
-        <!-- Added anchors so the layout dynamically fills the window with a 15px margin -->
         <BorderPane id="selectDirectoryPane" AnchorPane.topAnchor="15.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
             
             <top>
-                <!-- Grouped the instructional text logically with spacing and a bottom padding buffer -->
                 <VBox spacing="10" style="-fx-padding: 0 0 15 0;">
                     <Text text="Select a directory to store PCGen options in:" style="-fx-font-weight: bold;"/>
                     <Text text="If you have an existing options.ini file, then select the directory containing that file."/>
@@ -56,7 +54,6 @@
                 <fx:define>
                     <ToggleGroup fx:id="directoryGroup" />
                 </fx:define>
-                <!-- Added 10px of spacing so the radio buttons are no longer touching -->
                 <VBox spacing="10">
                     <RadioButton toggleGroup="$directoryGroup" fx:id="pcgenDir" text="PCGen Dir: This is the directory that PCGen is installed into." userData="pcgen"/>
                     <RadioButton toggleGroup="$directoryGroup" fx:id="macUserDir" text="Mac User Dir" userData="user"/>
@@ -67,13 +64,11 @@
             </center>
             
             <bottom>
-                <!-- Separated the bottom controls from the center list using a top padding buffer -->
                 <VBox spacing="15" style="-fx-padding: 15 0 0 0;">
                     <HBox spacing="10" alignment="CENTER_LEFT">
                         <TextField fx:id="dirSelection" editable="false" disable="true" HBox.hgrow="ALWAYS"/>
                         <Button fx:id="selectButton" text="..." onAction="#doChooser" />
                     </HBox>
-                    <!-- Right-aligned the OK button for standard dialog UX -->
                     <HBox alignment="CENTER_RIGHT">
                         <Button text="OK" onAction="#onConfirm" prefWidth="80" />
                     </HBox>

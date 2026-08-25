@@ -34,9 +34,12 @@
 <Scene xmlns="http://javafx.com/javafx/25.0.1"
        xmlns:fx="http://javafx.com/fxml"
        fx:controller="pcgen.gui3.dialog.ExportDialogController">
-    <AnchorPane>
-        <VBox>
-            <HBox>
+    <!-- Added preferred dimensions to the root pane -->
+    <AnchorPane prefWidth="700.0" prefHeight="500.0">
+        <!-- Anchored VBox to the edges and added spacing -->
+        <VBox AnchorPane.topAnchor="10.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" spacing="10">
+            
+            <HBox spacing="10" alignment="CENTER_LEFT">
                 <Label labelFor="$selectCharacterBox" text="Select Character" />
                 <ComboBox fx:id="selectCharacterBox" />
                 <Label labelFor="$exportSheetType" text="in_entireParty"/>
@@ -44,22 +47,25 @@
                 <Label labelFor="$exportSheetType" text="export To"/>
                 <ComboBox fx:id="exportSheetType" />
             </HBox>
-            <TitledPane text="%in_templates" collapsible="false" >
-                <ScrollPane fitToWidth="true">
+            
+            <TitledPane text="%in_templates" collapsible="false" VBox.vgrow="ALWAYS">
+                <ScrollPane fitToWidth="true" fitToHeight="true">
                     <ListView fx:id="templateSelect"/>
                 </ScrollPane>
             </TitledPane>
+            
             <BorderPane>
                 <left>
                     <ProgressBar fx:id="progress" progress="-1" visible="false" />
                 </left>
                 <right>
-                    <HBox>
+                    <HBox spacing="10">
                         <Button fx:id="doExport" text="%in_mnuFileExport" onAction="#doExport"/>
                         <Button fx:id="doClose" text="%in_mnuClose"  onAction="#doOnClose" />
                     </HBox>
                 </right>
             </BorderPane>
+            
         </VBox>
     </AnchorPane>
 </Scene>
