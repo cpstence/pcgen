@@ -1536,32 +1536,36 @@
 ====================================
 ====================================-->
 	<xsl:template name="process.attack.string">
-		<xsl:param name="bab"/>
-		<xsl:param name="string" select="''"/>
+        <xsl:param name="bab"/>
+        <xsl:param name="string" select="''"/>
+        <xsl:param name="maxrepeat" select="4"/>
 
-		<xsl:choose>
-			<xsl:when test="starts-with($bab, '+')">
-				<xsl:call-template name="process.attack.string">
-					<xsl:with-param name="bab" select="substring($bab, 2)"/>
-					<xsl:with-param name="string" select="$string"/>
-				</xsl:call-template>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:choose>
-					<xsl:when test="$bab &gt; 5">
-						<xsl:call-template name="process.attack.string">
-							<xsl:with-param name="bab" select="$bab - 5"/>
-							<xsl:with-param name="string">
-								<xsl:value-of select="$string"/>+<xsl:value-of select="$bab"/>/</xsl:with-param>
-						</xsl:call-template>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="$string"/>+<xsl:value-of select="$bab"/>
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:otherwise>
-		</xsl:choose>
-	</xsl:template>
+        <xsl:choose>
+                <xsl:when test="starts-with($bab, '+')">
+                        <xsl:call-template name="process.attack.string">
+                                <xsl:with-param name="bab" select="substring($bab, 2)"/>
+                                <xsl:with-param name="string" select="$string"/>
+                                <xsl:with-param name="maxrepeat" select="$maxrepeat"/>
+                        </xsl:call-template>
+                </xsl:when>
+                <xsl:otherwise>
+                        <xsl:choose>
+                                <xsl:when test="$bab &gt; 5 and $maxrepeat &gt; 1">
+                                        <xsl:call-template name="process.attack.string">
+                                                <xsl:with-param name="bab" select="$bab - 5"/>
+                                                <xsl:with-param name="string">
+                                                        <xsl:value-of select="$string"/>+<xsl:value-of select="$bab"/>/
+                                                </xsl:with-param>
+                                                <xsl:with-param name="maxrepeat" select="$maxrepeat - 1"/>
+                                        </xsl:call-template>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                        <xsl:value-of select="$string"/>+<xsl:value-of select="$bab"/>
+                                </xsl:otherwise>
+                        </xsl:choose>
+                </xsl:otherwise>
+        </xsl:choose>
+</xsl:template>
 
 
 
