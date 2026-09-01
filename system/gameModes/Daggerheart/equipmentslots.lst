@@ -1,0 +1,5 @@
+# Slot Type	NUMSLOTS	CONTAINS
+NUMSLOTS:Primary Weapon	HEADS:1	CONTAINS:Primary=1
+NUMSLOTS:Secondary Weapon	HEADS:1	CONTAINS:Secondary=1
+NUMSLOTS:Active Armor	HEADS:1	CONTAINS:Armor=1
+NUMSLOTS:Loadout Vault	HEADS:5	CONTAINS:DomainCard=5

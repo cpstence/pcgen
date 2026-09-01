@@ -1,0 +1,6 @@
+# Adversary Name	KEY	SIZE	MONSTERCLASS	TYPE	EVASION	HP	DESC	SOURCEPAGE
+Goblin Scrapper	KEY:Goblin Scrapper	SIZE:S	MONSTERCLASS:Adversary:1	TYPE:Adversary.Tier1.Minion	EVASION:10	HP:1	DESC:Tier 1 Minion | Difficulty: 10 | Thresholds: 4/8	SOURCEPAGE:p.92
+Forest Wolf	KEY:Forest Wolf	SIZE:M	MONSTERCLASS:Adversary:1	TYPE:Adversary.Tier1.Skirmisher	EVASION:12	HP:4	DESC:Tier 1 Standard | Difficulty: 12 | Thresholds: 6/12	ABILITY:Special Ability|AUTOMATIC|Pack Tactics ~ Adversary	SOURCEPAGE:p.94
+Skeleton Warrior	KEY:Skeleton Warrior	SIZE:M	MONSTERCLASS:Adversary:1	TYPE:Adversary.Tier1.Standard	EVASION:11	HP:3	DESC:Tier 1 Standard | Difficulty: 11 | Thresholds: 5/10	ABILITY:Special Ability|AUTOMATIC|Brittle Bones ~ Adversary	SOURCEPAGE:p.95
+Ogre Bruiser	KEY:Ogre Bruiser	SIZE:L	MONSTERCLASS:Adversary:2	TYPE:Adversary.Tier2.Bruiser	EVASION:9	HP:8	DESC:Tier 2 Bruiser | Difficulty: 13 | Thresholds: 12/24	ABILITY:Special Ability|AUTOMATIC|Sweeping Club ~ Adversary	SOURCEPAGE:p.98
+Adult Forest Drake	KEY:Adult Forest Drake	SIZE:L	MONSTERCLASS:Adversary:3	TYPE:Adversary.Tier3.Solo	EVASION:14	HP:12	DESC:Tier 3 Solo | Difficulty: 16 | Thresholds: 18/36	ABILITY:Special Ability|AUTOMATIC|Tail Swipe ~ Adversary|Acid Breath ~ Adversary	SOURCEPAGE:p.104

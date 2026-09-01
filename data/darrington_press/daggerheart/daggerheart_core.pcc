@@ -37,3 +37,7 @@ EQUIPMENT:dh_equip.lst
 EQUIPMENT:dh_equip_consumables.lst
 RACE:dh_ancestries.lst
 SPELL:dh_spells.lst
+# Adversaries & Monsters
+ABILITY:dh_abilities_adversaries.lst
+RACE:dh_races_adversaries.lst
+TEMPLATE:dh_templates_adversaries.lst

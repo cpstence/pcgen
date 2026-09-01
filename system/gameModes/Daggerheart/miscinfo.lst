@@ -1,0 +1,25 @@
+# Daggerheart System Settings
+GAMEMODE:Daggerheart
+DISPLAYGAMEMODE:Daggerheart
+
+# Core Stats (Traits)
+STATNAME:Agility	ABB:AGI	STATNAME:Agility
+STATNAME:Strength	ABB:STR	STATNAME:Strength
+STATNAME:Finesse	ABB:FIN	STATNAME:Finesse
+STATNAME:Instinct	ABB:INS	STATNAME:Instinct
+STATNAME:Presence	ABB:PRE	STATNAME:Presence
+STATNAME:Knowledge	ABB:KNO	STATNAME:Knowledge
+
+# Currency System
+CURRENCY:Coin	ABBR:cp	FACTOR:1
+CURRENCY:Handful	ABBR:hf	FACTOR:10
+CURRENCY:Bag	ABBR:bg	FACTOR:100
+CURRENCY:Chest	ABBR:ch	FACTOR:1000
+
+# Level Limits
+MAXLEVEL:10
+
+# Disable Legacy d20 Elements
+ALIGNMENTNOTUSED:YES
+DEITYNOTUSED:YES
+DOMAINNOTUSED:YES
