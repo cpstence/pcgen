@@ -1,0 +1,11 @@
+# Ability Name	CATEGORY	TYPE	DESC	SOURCEPAGE
+Domain Access ~ Arcana	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Arcana domain (Druid, Sorcerer).	SOURCEPAGE:p.7
+Domain Access ~ Blade	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Blade domain (Assassin, Guardian, Warrior).	SOURCEPAGE:p.7
+Domain Access ~ Bone	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Bone domain (Brawler, Ranger, Warrior).	SOURCEPAGE:p.7
+Domain Access ~ Codex	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Codex domain (Bard, Wizard).	SOURCEPAGE:p.7
+Domain Access ~ Dread	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Dread domain (Warlock, Witch).	SOURCEPAGE:p.7
+Domain Access ~ Grace	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Grace domain (Bard, Rogue, Warlock).	SOURCEPAGE:p.7
+Domain Access ~ Midnight	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Midnight domain (Assassin, Rogue, Sorcerer).	SOURCEPAGE:p.7
+Domain Access ~ Sage	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Sage domain (Druid, Ranger, Witch).	SOURCEPAGE:p.7
+Domain Access ~ Splendor	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Splendor domain (Seraph, Wizard).	SOURCEPAGE:p.7
+Domain Access ~ Valor	CATEGORY:Special Ability	TYPE:DomainAccess	DESC:Grants access to cards in the Valor domain (Brawler, Guardian, Seraph).	SOURCEPAGE:p.7

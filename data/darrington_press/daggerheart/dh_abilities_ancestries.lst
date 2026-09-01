@@ -1,0 +1,14 @@
+# Ability Name	CATEGORY	TYPE	DESC	SOURCEPAGE
+Hallowed Aura	CATEGORY:Special Ability	TYPE:AncestryFeature.Aetheris	DESC:Once per long rest when an ally within Close range rolls with Fear, change it to a roll with Hope.	SOURCEPAGE:p.32
+Celestial Wings	CATEGORY:Special Ability	TYPE:AncestryFeature.Aetheris	DESC:You have wings that allow you to fly. Once per scene while flying, spend a Hope instead of marking an Armor Slot.	SOURCEPAGE:p.32
+Purposeful Design	CATEGORY:Special Ability	TYPE:AncestryFeature.Clank	DESC:Choose an Experience aligning with your purpose and gain a permanent +1 bonus to it.	SOURCEPAGE:p.33
+Efficient	CATEGORY:Special Ability	TYPE:AncestryFeature.Clank	DESC:When taking a short rest, you can choose a long rest move instead of a short rest move.	SOURCEPAGE:p.33
+Scales	CATEGORY:Special Ability	TYPE:AncestryFeature.Drakona	DESC:When taking Severe damage, mark a Stress to mark 1 fewer Hit Point.	SOURCEPAGE:p.33
+Elemental Breath	CATEGORY:Special Ability	TYPE:AncestryFeature.Drakona	DESC:Treat as an Instinct weapon dealing d8 magic damage using Proficiency against targets in Very Close range.	SOURCEPAGE:p.33
+Stoneskin	CATEGORY:Special Ability	TYPE:AncestryFeature.Earthkin	DESC:Gain a permanent +1 bonus to your Armor Score and damage thresholds.	SOURCEPAGE:p.33
+Immovable	CATEGORY:Special Ability	TYPE:AncestryFeature.Earthkin	DESC:While touching the ground, you cannot be lifted or moved against your will.	SOURCEPAGE:p.33
+Fireproof	CATEGORY:Special Ability	TYPE:AncestryFeature.Emberkin	DESC:Immune to damage from magical or mundane flame.	SOURCEPAGE:p.34
+Ignition	CATEGORY:Special Ability	TYPE:AncestryFeature.Emberkin	DESC:Mark a Stress to wreathe primary weapon in flame until scene end for +1d6 damage.	SOURCEPAGE:p.34
+Caprine Leap	CATEGORY:Special Ability	TYPE:AncestryFeature.Faun	DESC:Leap anywhere within Close range as normal movement to vault obstacles and gaps.	SOURCEPAGE:p.35
+Endurance	CATEGORY:Special Ability	TYPE:AncestryFeature.Giant	DESC:Gain an additional Hit Point slot at character creation.	SOURCEPAGE:p.36
+High Stamina	CATEGORY:Special Ability	TYPE:AncestryFeature.Human	DESC:Gain an additional Stress slot at character creation.	SOURCEPAGE:p.36

@@ -1,0 +1,9 @@
+# Spell Name	CLASSES	RANGE	COST	DESC	SOURCEPAGE
+Prestidigitation	CLASSES:Wizard (Daggerheart)=1	RANGE:Close	COST:0	DESC:Perform harmless, subtle magical effects at will (e.g., illuminate a room, change colors, float tiny objects, clean/repair small items).	SOURCEPAGE:p.30
+Minor Illusion	CLASSES:Sorcerer (Daggerheart)=1	RANGE:Close	COST:0	DESC:Make a Spellcast Roll (10) to create a minor visual illusion no larger than yourself that is convincing at Close range or farther.	SOURCEPAGE:p.25
+Wildtouch	CLASSES:Druid (Daggerheart)=1	RANGE:Close	COST:0	DESC:Perform harmless, subtle natural effects at will (e.g., rapidly grow a flower, summon a breeze, start a campfire).	SOURCEPAGE:p.14
+Hex	CLASSES:Witch (Daggerheart)=1	RANGE:Far	COST:Stress=1	DESC:Temporarily Hex a target. Target gains a penalty to damage rolls and Difficulty equal to your tier.	SOURCEPAGE:p.29
+Commune	CLASSES:Witch (Daggerheart)=1	RANGE:Self	COST:0	DESC:Once per long rest, commune with spirits/entities by rolling d6s equal to Spellcast trait to receive psychic visions or sensory answers.	SOURCEPAGE:p.29
+Spirit Weapon	CLASSES:Seraph (Daggerheart)=1	RANGE:Close	COST:0	DESC:Equipped Melee/Very Close weapon flies up to Close range to attack and returns. Mark a Stress to hit an additional target.	SOURCEPAGE:p.24
+Dark Cloud	CLASSES:Rogue (Daggerheart)=1	RANGE:Close	COST:0	DESC:Spellcast Roll (15) creates a dark cloud blocking vision in and out; caster is Cloaked from blocked adversaries.	SOURCEPAGE:p.23
+Moonbeam	CLASSES:Witch (Daggerheart)=1	RANGE:Close	COST:0	DESC:Once per session, conjure moonlight granting allies +1 to Spellcast Rolls and true vision against illusions.	SOURCEPAGE:p.30

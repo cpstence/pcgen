@@ -1,8 +1,11 @@
 # Ancestry Name	KEY	SOURCEPAGE
+Aetheris	KEY:Aetheris	SOURCEPAGE:p.32
 Clank	KEY:Clank	SOURCEPAGE:p.33
 Drakona	KEY:Drakona	SOURCEPAGE:p.33
 Dwarf	KEY:Dwarf	SOURCEPAGE:p.33
+Earthkin	KEY:Earthkin	SOURCEPAGE:p.33
 Elf	KEY:Elf	SOURCEPAGE:p.34
+Emberkin	KEY:Emberkin	SOURCEPAGE:p.33
 Faerie	KEY:Faerie	SOURCEPAGE:p.34
 Faun	KEY:Faun	SOURCEPAGE:p.35
 Firbolg	KEY:Firbolg	SOURCEPAGE:p.35
@@ -18,3 +21,6 @@ Katari	KEY:Katari	SOURCEPAGE:p.37
 Orc	KEY:Orc	SOURCEPAGE:p.37
 Ribbet	KEY:Ribbet	SOURCEPAGE:p.37
 Simiah	KEY:Simiah	SOURCEPAGE:p.38
+Skykin	KEY:Skykin	SOURCEPAGE:p.34
+Tidekin	KEY:Tidekin	SOURCEPAGE:p.34
+Mixed Ancestry	KEY:Mixed Ancestry	SOURCEPAGE:p.38
