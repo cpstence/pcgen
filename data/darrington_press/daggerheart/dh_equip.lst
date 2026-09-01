@@ -1,0 +1,37 @@
+# Equipment Name	TYPE	COST	WT	DAMAGE	RANGE	ABILITY	SOURCEPAGE
+# --- Primary Physical Weapons (Tier 1) ---
+Broadsword	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Reliable: +1 to attack rolls	SOURCEPAGE:p.56
+Katana	Type:Weapon.Primary.Physical.Melee	COST:2	WT:3	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Quick: When you make an attack, you can mark a Stress to target another creature within range.	SOURCEPAGE:p.56
+Longsword	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
+Battleaxe	Type:Weapon.Primary.Physical.Melee	COST:1	WT:3	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
+Brass Knuckles	Type:Weapon.Primary.Physical.Melee	COST:1	WT:1	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
+Greatsword	Type:Weapon.Primary.Physical.Melee	COST:2	WT:4	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.	SOURCEPAGE:p.56
+Mace	Type:Weapon.Primary.Physical.Melee	COST:1	WT:3	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
+Warhammer	Type:Weapon.Primary.Physical.Melee	COST:2	WT:4	DAMAGE:d12+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Heavy: -1 to Evasion	SOURCEPAGE:p.56
+Dagger	Type:Weapon.Primary.Physical.Melee	COST:1	WT:1	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
+Shortbow	Type:Weapon.Primary.Physical.Ranged	COST:1	WT:2	DAMAGE:d6+3	RANGE:Far	BURDEN:Two-Handed	SOURCEPAGE:p.56
+Longbow	Type:Weapon.Primary.Physical.Ranged	COST:2	WT:3	DAMAGE:d8+3	RANGE:Very Far	BURDEN:Two-Handed	FEATURE:Cumbersome: -1 to Finesse	SOURCEPAGE:p.56
+
+# --- Primary Magic Weapons (Tier 1) ---
+Arcane Gauntlets	Type:Weapon.Primary.Magic.Melee	COST:2	WT:2	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
+Wand	Type:Weapon.Primary.Magic.Ranged	COST:1	WT:1	DAMAGE:d6+1	RANGE:Far	SOURCEPAGE:p.57
+Greatstaff	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:3	DAMAGE:d6	RANGE:Very Far	BURDEN:Two-Handed	FEATURE:Powerful: On a successful attack, roll an additional damage die and discard the lowest result.	SOURCEPAGE:p.57
+
+# --- Secondary Weapons (Tier 1) ---
+Hatchet	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Follow-Up: On a successful attack with your primary weapon within Melee range, you can mark a Stress to gain a +1 bonus to your Proficiency for this attack.	SOURCEPAGE:p.66
+Shortsword	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Paired: +2 to primary weapon damage to targets within Melee range	SOURCEPAGE:p.66
+Round Shield	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:3	DAMAGE:d4	RANGE:Melee	FEATURE:Protective: +1 to Armor Score	SOURCEPAGE:p.66
+Tower Shield	Type:Weapon.Secondary.Physical.Melee	COST:2	WT:5	DAMAGE:d6	RANGE:Melee	FEATURE:Barrier: +2 to Armor Score; -1 to Evasion	SOURCEPAGE:p.66
+Grappler	Type:Weapon.Secondary.Physical.Ranged	COST:1	WT:2	DAMAGE:d6	RANGE:Close	FEATURE:Hooked: On a successful attack, you can pull the target into Melee range.	SOURCEPAGE:p.66
+
+# --- Combat Wheelchair (Tier 1) ---
+Light-Frame Wheelchair	Type:Weapon.Primary.Physical.Melee	COST:2	WT:15	DAMAGE:d8	RANGE:Melee	FEATURE:Quick: When you make an attack, you can mark a Stress to target another creature within range.	SOURCEPAGE:p.70
+Heavy-Frame Wheelchair	Type:Weapon.Primary.Physical.Melee	COST:3	WT:30	DAMAGE:d12+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Heavy: -1 to Evasion	SOURCEPAGE:p.71
+Arcane-Frame Wheelchair	Type:Weapon.Primary.Magic.Ranged	COST:3	WT:20	DAMAGE:d6	RANGE:Far	FEATURE:Reliable: +1 to attack rolls	SOURCEPAGE:p.71
+
+# --- Armor (Tier 1) ---
+Mage Robes	Type:Armor.Body	COST:1	WT:1	BASE_SCORE:2	BASE_THRESHOLDS:4/10	FEATURE:Enchanted: Gain a bonus to your damage thresholds equal to your Spellcast trait.	SOURCEPAGE:p.72
+Gambeson Armor	Type:Armor.Body	COST:1	WT:3	BASE_SCORE:3	BASE_THRESHOLDS:5/11	FEATURE:Flexible: +1 to Evasion	SOURCEPAGE:p.72
+Leather Armor	Type:Armor.Body	COST:1	WT:4	BASE_SCORE:3	BASE_THRESHOLDS:6/13	SOURCEPAGE:p.72
+Chainmail Armor	Type:Armor.Body	COST:2	WT:12	BASE_SCORE:4	BASE_THRESHOLDS:7/15	FEATURE:Heavy: -1 to Evasion	SOURCEPAGE:p.72
+Full Plate Armor	Type:Armor.Body	COST:3	WT:25	BASE_SCORE:4	BASE_THRESHOLDS:8/17	FEATURE:Very Heavy: -2 to Evasion; -1 to Agility	SOURCEPAGE:p.72

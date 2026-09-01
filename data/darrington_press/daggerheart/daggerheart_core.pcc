@@ -1,0 +1,31 @@
+CAMPAIGN:Daggerheart Core Rules
+KEY:Daggerheart Core Rules
+GAMEMODE:Daggerheart
+TYPE:Darrington Press.Daggerheart
+STATUS:RELEASE
+GENRE:Fantasy
+BOOKTYPE:Core Rules
+SETTING:Daggerheart
+PUBNAMELONG:Darrington Press, LLC
+PUBNAMESHORT:Darrington
+PUBNAMEWEB:https://darringtonpress.com
+SOURCELONG:Daggerheart System Reference Document 2.0
+SOURCESHORT:DHSRD
+SOURCEDATE:2026-08
+ISOGL:NO
+
+URL:WEBSITE|https://darringtonpress.com/license/|Darrington Press Community Gaming License
+DESC:Daggerheart is a collaborative fantasy tabletop roleplaying game of incredible magic and heroic, heartfelt adventure.
+
+INFOTEXT:This product includes materials from the Daggerheart System Reference Document 2.0, Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License. More information can be found at https://www.daggerheart.com. There are no previous modifications by others.
+COPYRIGHT:2026 Critical Role LLC. All rights reserved.
+COPYRIGHT:PCGen dataset conversion for "Daggerheart" Copyright 2026, PCGen Data team.
+
+# Data Files
+ABILITY:dh_abilities_domains.lst
+ABILITY:dh_abilities_communities.lst
+ABILITY:dh_abilities_transformations.lst
+CLASS:dh_classes.lst
+EQUIPMENT:dh_equip.lst
+RACE:dh_ancestries.lst
+SPELL:dh_spells.lst
