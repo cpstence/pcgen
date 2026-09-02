@@ -1,43 +1,32 @@
-CAMPAIGN:Daggerheart Core Rules (Daggerheart Compatible)
+CAMPAIGN:Daggerheart Core Rules
 KEY:Daggerheart Core Rules
 GAMEMODE:Daggerheart
-TYPE:Darrington Press.Daggerheart
-STATUS:RELEASE
-GENRE:Fantasy
+TYPE:Darrington Press
 BOOKTYPE:Core Rules
-SETTING:Daggerheart
-PUBNAMELONG:Darrington Press, LLC
-PUBNAMESHORT:Darrington
-PUBNAMEWEB:https://darringtonpress.com
-SOURCELONG:Daggerheart System Reference Document 2.0
-SOURCESHORT:DHSRD
-SOURCEDATE:2026-08
-ISOGL:NO
+PUBNAMELONG:Darrington Press
+PUBNAMESHORT:DP
+PUBNAMEWEB:https://darringtonpress.com/
+SOURCELONG:Daggerheart Core Rules
+SOURCESHORT:DH
+SOURCEDATE:2024-03
+ISLICENSED:NO
 
-COVER:DH_CGL_logos_final_full_color.png
-LOGO:@/publisher_logos/Darrington_Press.png
-URL:WEBSITE|https://darringtonpress.com/license/|Darrington Press Community Gaming License
-URL:WEBSITE|https://www.daggerheart.com|Daggerheart Official Site
-DESC:Daggerheart is a collaborative fantasy tabletop roleplaying game of incredible magic and heroic, heartfelt adventure.
-
-INFOTEXT:This product includes materials from the Daggerheart System Reference Document 2.0, Critical Role, LLC. under the terms of the Darrington Press Community Gaming (DPCGL) License. More information can be found at https://www.daggerheart.com. There are no previous modifications by others.
-COPYRIGHT:2026 Critical Role LLC. All rights reserved.
-COPYRIGHT:Darrington Press™ and the Darrington Press authorized work logo are trademarks of Critical Role, LLC and used with permission.
-COPYRIGHT:PCGen dataset conversion for "Daggerheart" Copyright 2026, PCGen Data team.
-
-# Data Files
+# Load Core Data Files
+ABILITYCATEGORY:dh_abilitycategories.lst
+RACE:dh_ancestries.lst
+RACE:dh_races_adversaries.lst
+CLASS:dh_classes.lst
 ABILITY:dh_abilities_class.lst
 ABILITY:dh_abilities_ancestries.lst
 ABILITY:dh_abilities_communities.lst
 ABILITY:dh_abilities_domains.lst
+ABILITY:dh_abilities_adversaries.lst
 ABILITY:dh_abilities_transformations.lst
-CLASS:dh_classes.lst
-COMPANIONMOD:dh_companionmods.lst
 EQUIPMENT:dh_equip.lst
 EQUIPMENT:dh_equip_consumables.lst
-RACE:dh_ancestries.lst
 SPELL:dh_spells.lst
-# Adversaries & Monsters
-ABILITY:dh_abilities_adversaries.lst
-RACE:dh_races_adversaries.lst
 TEMPLATE:dh_templates_adversaries.lst
+ALIGNMENT:dh_alignments.lst
+DEITY:dh_deities.lst
+LANGUAGE:dh_languages.lst
+STAT:dh_stats.lst

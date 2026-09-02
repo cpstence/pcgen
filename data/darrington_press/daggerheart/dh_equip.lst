@@ -1,71 +1,7 @@
-# Equipment Name	TYPE	COST	WT	DAMAGE	RANGE	ABILITY	SOURCEPAGE
-# --- Primary Physical Weapons (Tier 1) ---
-Broadsword	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Reliable: +1 to attack rolls	SOURCEPAGE:p.56
-Katana	Type:Weapon.Primary.Physical.Melee	COST:2	WT:3	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Quick: When you make an attack, you can mark a Stress to target another creature within range.	SOURCEPAGE:p.56
-Longsword	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Battleaxe	Type:Weapon.Primary.Physical.Melee	COST:1	WT:3	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Brass Knuckles	Type:Weapon.Primary.Physical.Melee	COST:1	WT:1	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
-Greatsword	Type:Weapon.Primary.Physical.Melee	COST:2	WT:4	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Massive: -1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.	SOURCEPAGE:p.56
-Mace	Type:Weapon.Primary.Physical.Melee	COST:1	WT:3	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
-Warhammer	Type:Weapon.Primary.Physical.Melee	COST:2	WT:4	DAMAGE:d12+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Heavy: -1 to Evasion	SOURCEPAGE:p.56
-Dagger	Type:Weapon.Primary.Physical.Melee	COST:1	WT:1	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
-Quarterstaff	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Cutlass	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
-Rapier	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Quick: When you make an attack, you can mark a Stress to target another creature within range.	SOURCEPAGE:p.56
-Scimitar	Type:Weapon.Primary.Physical.Melee	COST:1	WT:2	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
-Twisted Dagger	Type:Weapon.Primary.Physical.Melee	COST:1	WT:1	DAMAGE:d8	RANGE:Melee	FEATURE:Piercing: Damage dealt with this weapon treats the target's Major threshold as having a -2 penalty.	SOURCEPAGE:p.56
-Halberd	Type:Weapon.Primary.Physical.Melee	COST:2	WT:4	DAMAGE:d10+2	RANGE:Very Close	BURDEN:Two-Handed	FEATURE:Cumbersome: -1 to Finesse	SOURCEPAGE:p.56
-Spear	Type:Weapon.Primary.Physical.Melee	COST:1	WT:3	DAMAGE:d8+3	RANGE:Very Close	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Whipsword	Type:Weapon.Primary.Physical.Melee	COST:2	WT:2	DAMAGE:d8	RANGE:Very Close	FEATURE:Versatile: This weapon can also be used with Finesse, Melee, d10.	SOURCEPAGE:p.56
-Rope Dart	Type:Weapon.Primary.Physical.Ranged	COST:1	WT:2	DAMAGE:d6+1	RANGE:Close	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Shortbow	Type:Weapon.Primary.Physical.Ranged	COST:1	WT:2	DAMAGE:d6+3	RANGE:Far	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Crossbow	Type:Weapon.Primary.Physical.Ranged	COST:2	WT:3	DAMAGE:d6+1	RANGE:Far	SOURCEPAGE:p.56
-Longbow	Type:Weapon.Primary.Physical.Ranged	COST:2	WT:3	DAMAGE:d8+3	RANGE:Very Far	BURDEN:Two-Handed	FEATURE:Cumbersome: -1 to Finesse	SOURCEPAGE:p.56
-
-# --- Primary Magic Weapons (Tier 1) ---
-Arcane Gauntlets	Type:Weapon.Primary.Magic.Melee	COST:2	WT:2	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Brightsword	Type:Weapon.Primary.Magic.Melee	COST:2	WT:3	DAMAGE:d10+3	RANGE:Melee	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Hallowed Axe	Type:Weapon.Primary.Magic.Melee	COST:2	WT:3	DAMAGE:d8+1	RANGE:Melee	SOURCEPAGE:p.56
-Shadowblade	Type:Weapon.Primary.Magic.Melee	COST:2	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Otherworldly: On a successful attack, you can deal physical or magic damage.	SOURCEPAGE:p.56
-Glowing Rings	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:1	DAMAGE:d10+2	RANGE:Very Close	BURDEN:Two-Handed	SOURCEPAGE:p.56
-Hand Runes	Type:Weapon.Primary.Magic.Ranged	COST:1	WT:0	DAMAGE:d10	RANGE:Very Close	SOURCEPAGE:p.56
-Enchanted Chakram	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:2	DAMAGE:d6+1	RANGE:Close	FEATURE:Ricochet: Mark a Stress to target an additional creature within Very Close range of the first.	SOURCEPAGE:p.57
-Returning Blade	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:2	DAMAGE:d8	RANGE:Close	FEATURE:Returning: Appears in your hand immediately after the attack.	SOURCEPAGE:p.57
-Casting Dagger	Type:Weapon.Primary.Magic.Ranged	COST:1	WT:1	DAMAGE:d6	RANGE:Close	FEATURE:Versatile: This weapon can also be used with Instinct, Melee, d8.	SOURCEPAGE:p.57
-Shortstaff	Type:Weapon.Primary.Magic.Ranged	COST:1	WT:2	DAMAGE:d8+1	RANGE:Close	SOURCEPAGE:p.57
-Dualstaff	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:3	DAMAGE:d6+3	RANGE:Far	BURDEN:Two-Handed	SOURCEPAGE:p.57
-Scepter	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:2	DAMAGE:d6	RANGE:Far	BURDEN:Two-Handed	FEATURE:Versatile: This weapon can also be used with Presence, Melee, d8.	SOURCEPAGE:p.57
-Runelock Pistol	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:2	DAMAGE:d6+3	RANGE:Far	FEATURE:Reloading: On a d6 roll of 1, mark a Stress to reload.	SOURCEPAGE:p.57
-Wand	Type:Weapon.Primary.Magic.Ranged	COST:1	WT:1	DAMAGE:d6+1	RANGE:Far	SOURCEPAGE:p.57
-Arcane Rifle	Type:Weapon.Primary.Magic.Ranged	COST:3	WT:4	DAMAGE:d10+3	RANGE:Very Far	BURDEN:Two-Handed	FEATURE:Aimed: Disadvantage if target is within Very Close range.	SOURCEPAGE:p.57
-Greatstaff	Type:Weapon.Primary.Magic.Ranged	COST:2	WT:3	DAMAGE:d6	RANGE:Very Far	BURDEN:Two-Handed	FEATURE:Powerful: Roll an additional damage die and discard the lowest result.	SOURCEPAGE:p.57
-
-# --- Secondary Weapons (Tier 1) ---
-Hatchet	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Follow-Up: Mark a Stress on a primary hit to gain +1 Proficiency.	SOURCEPAGE:p.66
-Shortsword	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Paired: +2 to primary weapon damage within Melee range.	SOURCEPAGE:p.66
-Offhand Brass Knuckles	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:1	DAMAGE:d8	RANGE:Melee	FEATURE:Paired: +2 to primary weapon damage within Melee range.	SOURCEPAGE:p.66
-Round Shield	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:3	DAMAGE:d4	RANGE:Melee	FEATURE:Protective: +1 to Armor Score.	SOURCEPAGE:p.66
-Tower Shield	Type:Weapon.Secondary.Physical.Melee	COST:2	WT:5	DAMAGE:d6	RANGE:Melee	FEATURE:Barrier: +2 to Armor Score; -1 to Evasion.	SOURCEPAGE:p.66
-Small Dagger	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:1	DAMAGE:d8	RANGE:Melee	FEATURE:Paired: +2 to primary weapon damage within Melee range.	SOURCEPAGE:p.66
-Throwing Knives	Type:Weapon.Secondary.Physical.Ranged	COST:1	WT:2	DAMAGE:d8	RANGE:Melee	FEATURE:Stockpiled: Can throw within Close range using Finesse without retrieving.	SOURCEPAGE:p.66
-Fighting Cloak	Type:Weapon.Secondary.Physical.Melee	COST:1	WT:1	DAMAGE:d4	RANGE:Melee	FEATURE:Padded: +2 to damage thresholds.	SOURCEPAGE:p.66
-Rune Shield	Type:Weapon.Secondary.Magic.Melee	COST:1	WT:3	DAMAGE:d4	RANGE:Melee	FEATURE:Protective: +1 to Armor Score.	SOURCEPAGE:p.66
-Focus Runes	Type:Weapon.Secondary.Magic.Ranged	COST:1	WT:0	DAMAGE:d6	RANGE:Very Close	FEATURE:Focused: +1 to primary weapon damage within Very Close range.	SOURCEPAGE:p.66
-Whip	Type:Weapon.Secondary.Physical.Ranged	COST:1	WT:2	DAMAGE:d6	RANGE:Very Close	FEATURE:Startling: Mark a Stress to push adversaries in Melee back to Close range.	SOURCEPAGE:p.66
-Grappler	Type:Weapon.Secondary.Physical.Ranged	COST:1	WT:2	DAMAGE:d6	RANGE:Close	FEATURE:Hooked: On a successful attack, pull the target into Melee range.	SOURCEPAGE:p.66
-Hand Crossbow	Type:Weapon.Secondary.Physical.Ranged	COST:2	WT:2	DAMAGE:d6+1	RANGE:Far	SOURCEPAGE:p.66
-
-# --- Combat Wheelchair (Tier 1) ---
-Light-Frame Wheelchair	Type:Weapon.Primary.Physical.Melee	COST:2	WT:15	DAMAGE:d8	RANGE:Melee	FEATURE:Quick: When you make an attack, you can mark a Stress to target another creature within range.	SOURCEPAGE:p.70
-Heavy-Frame Wheelchair	Type:Weapon.Primary.Physical.Melee	COST:3	WT:30	DAMAGE:d12+3	RANGE:Melee	BURDEN:Two-Handed	FEATURE:Heavy: -1 to Evasion	SOURCEPAGE:p.71
-Arcane-Frame Wheelchair	Type:Weapon.Primary.Magic.Ranged	COST:3	WT:20	DAMAGE:d6	RANGE:Far	FEATURE:Reliable: +1 to attack rolls	SOURCEPAGE:p.71
-
-# --- Armor (Tier 1) ---
-Mage Robes	Type:Armor.Body	COST:1	WT:1	BASE_SCORE:2	BASE_THRESHOLDS:4/10	FEATURE:Enchanted: Gain a bonus to your damage thresholds equal to your Spellcast trait.	SOURCEPAGE:p.72
-Gambeson Armor	Type:Armor.Body	COST:1	WT:3	BASE_SCORE:3	BASE_THRESHOLDS:5/11	FEATURE:Flexible: +1 to Evasion	SOURCEPAGE:p.72
-Brigandine Armor	Type:Armor.Body	COST:2	WT:5	BASE_SCORE:3	BASE_THRESHOLDS:6/12	FEATURE:Lined: Mark a Stress to negate Minor damage.	SOURCEPAGE:p.72
-Leather Armor	Type:Armor.Body	COST:1	WT:4	BASE_SCORE:3	BASE_THRESHOLDS:6/13	SOURCEPAGE:p.72
-Scale Mail Armor	Type:Armor.Body	COST:2	WT:8	BASE_SCORE:3	BASE_THRESHOLDS:7/14	FEATURE:Cumbersome: -1 to Finesse	SOURCEPAGE:p.72
-Chainmail Armor	Type:Armor.Body	COST:2	WT:12	BASE_SCORE:4	BASE_THRESHOLDS:7/15	FEATURE:Heavy: -1 to Evasion	SOURCEPAGE:p.72
-Banded Armor	Type:Armor.Body	COST:2	WT:16	BASE_SCORE:4	BASE_THRESHOLDS:8/16	FEATURE:Bulky: -1 to Evasion; when you take Severe damage, you must mark a Stress.	SOURCEPAGE:p.72
-Full Plate Armor	Type:Armor.Body	COST:3	WT:25	BASE_SCORE:4	BASE_THRESHOLDS:8/17	FEATURE:Very Heavy: -2 to Evasion; -1 to Agility	SOURCEPAGE:p.72
+# Daggerheart Equipment Definitions
+Scion Blade	TYPE:Weapon.Primary.Physical.Melee	WT:1	DAMAGE:d8	RANGE:0	DESC:Standard primary weapon.
+Scimitar	TYPE:Weapon.Primary.Physical.Melee	WT:1	DAMAGE:d8	RANGE:0	DESC:Melee weapon.
+Twisted Dagger	TYPE:Weapon.Primary.Physical.Melee	WT:1	DAMAGE:d6	RANGE:0	DESC:Piercing weapon.
+Halberd	TYPE:Weapon.Primary.Physical.Melee	WT:2	DAMAGE:d10	RANGE:10	DESC:Two-handed polearm.
+Spear	TYPE:Weapon.Primary.Physical.Melee	WT:2	DAMAGE:d8	RANGE:10	DESC:Two-handed spear.
+Whipsword	TYPE:Weapon.Primary.Physical.Melee	WT:1	DAMAGE:d8	RANGE:5	DESC:Versatile weapon.
