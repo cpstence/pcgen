@@ -38,7 +38,7 @@
 						<xsl:value-of select="25.4 * 11.0"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:value-of select="297"/>
+						<xsl:value-of select="25.4 * 11.0"/>
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:otherwise>
@@ -61,7 +61,7 @@
 						<xsl:value-of select="25.4 * 8.5"/>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:value-of select="210"/>
+						<xsl:value-of select="25.4 * 8.5"/>
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:otherwise>
