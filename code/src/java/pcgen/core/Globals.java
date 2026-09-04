@@ -742,22 +742,30 @@ public final class Globals
 	/**
 	 * Apply the user's preferences to the initial state of the Globals.
 	 */
-    public static void initPreferences()
-    {
-        if (selectedPaper != -1)
-        {
-            // Already initialized
-            return;
-        }
-        String defaultPaper = "A4";
-        String country = java.util.Locale.getDefault().getCountry();
-        if ("US".equalsIgnoreCase(country) || "CA".equalsIgnoreCase(country))
-        {
-            defaultPaper = "in_PaperLetter";
-        }
-        final String papersize = PCGenSettings.getInstance().initProperty(PCGenSettings.PAPERSIZE, defaultPaper);
-        selectPaper(papersize);
-    }
+public static void initPreferences()
+	{
+		if (selectedPaper != -1)
+		{
+			// Already initialized
+			return;
+		}
+
+		String defaultPaper = "A4";
+		String country = java.util.Locale.getDefault().getCountry();
+		if ("US".equalsIgnoreCase(country) || "CA".equalsIgnoreCase(country))
+		{
+			defaultPaper = "Letter";
+		}
+
+		String papersize = PCGenSettings.getInstance().initProperty(PCGenSettings.PAPERSIZE, defaultPaper);
+
+		// Self-healing fallback: If the saved paper size is invalid, force it to the regional default
+		if (!selectPaper(papersize)) 
+		{
+			PCGenSettings.getInstance().setProperty(PCGenSettings.PAPERSIZE, defaultPaper);
+			selectPaper(defaultPaper);
+		}
+	}
 
 	/**
 	 * Sorts chooser lists using the appropriate method, based on the type of the first item in either list.
